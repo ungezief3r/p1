@@ -1,5 +1,7 @@
 # p1
 calculator
+
+
 곱셈공식 번호:
 - 1 = (x+a)(x+b)(x+c)
 - 2 = (a+b+c)^2
