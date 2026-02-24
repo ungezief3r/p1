@@ -1,4 +1,4 @@
-class calculator:
+class Calculator:
     def __init__(self):
         
         self.formulas = [self.formula_1, self.formula_2, self.formula_3, self.formula_4, self.formula_5]
@@ -59,7 +59,7 @@ class calculator:
                 print("null")
             
 
-class equations:
+class Equations:
 
 
     def __init__(self):
@@ -76,7 +76,7 @@ class equations:
             plus = ((-b + d**0.5)/(2*a))
             minus = ((-b - d**0.5)/(2*a))
 
-            result("x1 = " + str(plus) + "x2 = " + str(minus))
+            result = ("x1 = " + str(plus) + "x2 = " + str(minus))
             return result
                     
         elif d == 0:
@@ -110,8 +110,8 @@ class equations:
 
                 
 
-equa = equations()
-calc = calculator()
+equa = Equations()
+calc = Calculator()
 
 calculator_modes = [equa, calc]
 
